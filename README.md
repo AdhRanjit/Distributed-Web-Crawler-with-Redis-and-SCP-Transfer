@@ -20,8 +20,8 @@ This distributed system consists of:
 
 ### Components
 - Crawling Node: Fetches and processes web pages.
--- Redis Node: Stores web page titles and content.
--- File System Node: Receives the crawled content and stores it as text files, transferring the files via SCP to a remote storage node.
+- Redis Node: Stores web page titles and content.
+- File System Node: Receives the crawled content and stores it as text files, transferring the files via SCP to a remote storage node.
 
 ### Distributed Nodes Setup
 1. Each node (Crawling, Redis, File System) is deployed as a separate virtual machine using Oracle VirtualBox to simulate a distributed architecture.
